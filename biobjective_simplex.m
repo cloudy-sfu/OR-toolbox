@@ -50,7 +50,6 @@ assert(rank(A) == m, ['Assumption should be satisfied: ' ...
 
 % Intialization
 lambda = 1;
-[m, n] = size(A);
 bar_c = C(1,:) * lambda(1) + C(2,:) * (1 - lambda(1));
 x = zeros(n, 1);
 
